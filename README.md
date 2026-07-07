@@ -117,7 +117,7 @@ Bản quyền © 2026 whitecode666
 
 Nếu bạn thấy dự án này hữu ích, hãy cho nó một ⭐ trên GitHub nhé!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=whitecode666/FufuLauncher&type=date&legend=top-left)](https://www.star-history.com/#whitecode666/FufuLauncher&type=date&legend=top-left)
+[![Star History Chart](https://www.star-history.com/?repos=whitecode666%2FFufuLauncher&type=date&legend=top-left)
 
 ---
 
