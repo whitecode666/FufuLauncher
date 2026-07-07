@@ -113,14 +113,6 @@ Bản quyền © 2026 whitecode666
 
 ---
 
-## 🌟 Ủng hộ dự án
-
-Nếu bạn thấy dự án này hữu ích, hãy cho nó một ⭐ trên GitHub nhé!
-
-[![Star History Chart](https://www.star-history.com/?repos=whitecode666%2FFufuLauncher&type=date&legend=top-left)
-
----
-
 ## 📞 Liên hệ
 
 - [GitHub Issues](https://github.com/whitecode666/FufuLauncher/issues)
