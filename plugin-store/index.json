@@ -1,0 +1,30 @@
+{
+  "total": 1,
+  "page": 1,
+  "page_size": 20,
+  "plugins": [
+    {
+      "id": "fufu-plugin-base",
+      "name": "FufuPlugin Base",
+      "developer": "FufuLauncher Dev Team",
+      "description": "Plugin cơ bản cho Fufu Launcher",
+      "long_description": "Plugin base cung cấp các hàm tiện ích cho các plugin khác.",
+      "version": "1.0.0",
+      "icon_url": "",
+      "screenshots": [],
+      "category": "utility",
+      "tags": ["core", "utility"],
+      "rating": 4.5,
+      "downloads": 1000,
+      "size_bytes": 102400,
+      "min_app_version": "1.4.0",
+      "updated_at": "2026-07-14T00:00:00Z",
+      "lua_install_url": "",
+      "lua_uninstall_url": "",
+      "download_url": "",
+      "file_hash": "",
+      "lua_hash": "",
+      "dll_file_name": ""
+    }
+  ]
+}

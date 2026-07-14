@@ -1,0 +1,9 @@
+{
+  "categories": [
+    { "key": "", "display_name": "All", "icon": "\uE71D" },
+    { "key": "utility", "display_name": "Utility", "icon": "\uE90F" },
+    { "key": "gameplay", "display_name": "Gameplay", "icon": "\uE7FC" },
+    { "key": "visuals", "display_name": "Visual Enhancement", "icon": "\uE790" },
+    { "key": "other", "display_name": "Other", "icon": "\uE74C" }
+  ]
+}
