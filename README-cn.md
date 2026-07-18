@@ -1,138 +1,138 @@
-# [芙芙启动器 (FufuLauncher)](https://github.com/whitecode666/FufuLauncher)
+﻿# [è™è™å¯å¨å™¨ (WhitefuLaucher)](https://github.com/whitecode666/WhitefuLaucher)
 
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![.NET](https://img.shields.io/badge/.NET-8.0-blue)
 ![WinUI](https://img.shields.io/badge/UI-WinUI%203-8A2BE2)
 
-> 一款基于 WinUI 3 的《原神》第三方启动工具，支持游戏注入、自动签到和多种实用功能。
+> ä¸€æ¬¾åŸºäº WinUI 3 ç„ă€åŸç¥ă€‹ç¬¬ä¸‰æ–¹å¯å¨å·¥å…·ï¼Œæ”¯æŒæ¸¸æˆæ³¨å…¥ă€è‡ªå¨ç­¾åˆ°å’Œå¤ç§å®ç”¨åŸèƒ½ă€‚
 
-[English](./README-en.md) | [Tiếng Việt](./README-vi.md)
-
----
-
-## 📸 截图
-
-> *（在此处添加应用截图）*
+[English](./README-en.md) | [Tiáº¿ng Viá»‡t](./README-vi.md)
 
 ---
 
-## ✨ 主要功能
+## đŸ“¸ æˆªå›¾
 
-### 🔐 账号管理
-- 多账号快速切换，无需重复输入密码
-- 本地加密存储，保护账号安全
-- 支持米游社扫码登录
-
-### 📅 自动签到
-- 每天一键完成米游社/霍霍巴签到
-- 支持云游戏签到
-- 社区任务自动完成（点赞、阅读、分享）
-
-### 🎮 游戏管理
-- 自动检测游戏安装路径
-- 实时版本更新公告
-- 游戏资源预下载与完整性验证
-- 服务器切换（官方/Bilibili/国际服）
-
-### ⚡ 实用工具
-- **养成计算器**：计算角色和武器培养所需资源
-- **键盘连点器**：自动化点击操作
-- **帧率监控**：实时显示游戏帧率
-- **截图工具**：一键截取游戏画面
-- **祈愿记录**：查看和分析抽卡数据
-- **成就管理**：追踪成就进度
-
-### 🚀 启动参数
-- 自定义分辨率与窗口模式
-- 自定义启动参数预设
-- 多显示器支持
-
-### 🔧 注入功能
-- DLL 注入支持
-- 预设管理系统
-- 插件扩展支持
-
-### 🎨 个性化
-- 自定义背景（图片/视频/轮播）
-- 自定义主题颜色
-- 毛玻璃/亚克力效果
-- 可调节透明度
+> *ï¼ˆåœ¨æ­¤å¤„æ·»å åº”ç”¨æˆªå›¾ï¼‰*
 
 ---
 
-## 📥 安装与使用
+## âœ¨ ä¸»è¦åŸèƒ½
 
-### 系统要求
-- **操作系统**：Windows 10/11（64位）
-- **运行库**：[.NET 8.0](https://dotnet.microsoft.com/download/dotnet/8.0) 或更高版本
-- **运行库**：[Microsoft Edge WebView2](https://developer.microsoft.com/microsoft-edge/webview2/)（Windows 10 以上版本通常已内置）
-- **运行库**：Visual C++ Redistributable v14
+### đŸ” è´¦å·ç®¡ç†
+- å¤è´¦å·å¿«é€Ÿåˆ‡æ¢ï¼Œæ— éœ€é‡å¤è¾“å…¥å¯†ç 
+- æœ¬åœ°å å¯†å­˜å‚¨ï¼Œä¿æ¤è´¦å·å®‰å…¨
+- æ”¯æŒç±³æ¸¸ç¤¾æ‰«ç ç™»å½•
 
-### 快速开始
+### đŸ“… è‡ªå¨ç­¾åˆ°
+- æ¯å¤©ä¸€é”®å®Œæˆç±³æ¸¸ç¤¾/éœéœå·´ç­¾åˆ°
+- æ”¯æŒäº‘æ¸¸æˆç­¾åˆ°
+- ç¤¾åŒºä»»å¡è‡ªå¨å®Œæˆï¼ˆç‚¹èµă€é˜…è¯»ă€åˆ†äº«ï¼‰
 
-1. **首次运行**：将显示用户协议，请仔细阅读并同意后继续
-2. **设置游戏路径**：进入「设置」页面选择游戏安装目录（建议使用自动检测）
-3. **登录账号**：在「账号」页面登录米游社账号以使用签到功能
-4. **启动游戏**：主页点击「启动游戏」即可
+### đŸ® æ¸¸æˆç®¡ç†
+- è‡ªå¨æ£€æµ‹æ¸¸æˆå®‰è£…è·¯å¾„
+- å®æ—¶ç‰ˆæœ¬æ›´æ–°å…¬å‘
+- æ¸¸æˆèµ„æºé¢„ä¸‹è½½ä¸å®Œæ•´æ€§éªŒè¯
+- æœå¡å™¨åˆ‡æ¢ï¼ˆå®˜æ–¹/Bilibili/å›½é™…æœï¼‰
 
-> ⚠️ **重要提醒**：
-> - 切换账号需要**管理员权限**
-> - 建议先选择游戏路径，再以管理员身份运行程序
-> - 注入功能需要**管理员权限**
-> - 动态视频背景可能不稳定，建议使用静态图片
+### â¡ å®ç”¨å·¥å…·
+- **å…»æˆè®¡ç®—å™¨**ï¼è®¡ç®—è§’è‰²å’Œæ­¦å™¨åŸ¹å…»æ‰€éœ€èµ„æº
+- **é”®ç›˜è¿ç‚¹å™¨**ï¼è‡ªå¨åŒ–ç‚¹å‡»æ“ä½œ
+- **å¸§ç‡ç›‘æ§**ï¼å®æ—¶æ˜¾ç¤ºæ¸¸æˆå¸§ç‡
+- **æˆªå›¾å·¥å…·**ï¼ä¸€é”®æˆªå–æ¸¸æˆç”»é¢
+- **ç¥ˆæ„¿è®°å½•**ï¼æŸ¥çœ‹å’Œåˆ†ææ½å¡æ•°æ®
+- **æˆå°±ç®¡ç†**ï¼è¿½è¸ªæˆå°±è¿›åº¦
 
----
+### đŸ€ å¯å¨å‚æ•°
+- è‡ªå®ä¹‰åˆ†è¾¨ç‡ä¸çª—å£æ¨¡å¼
+- è‡ªå®ä¹‰å¯å¨å‚æ•°é¢„è®¾
+- å¤æ˜¾ç¤ºå™¨æ”¯æŒ
 
-## 🏗️ 技术栈
+### đŸ”§ æ³¨å…¥åŸèƒ½
+- DLL æ³¨å…¥æ”¯æŒ
+- é¢„è®¾ç®¡ç†ç³»ç»Ÿ
+- æ’ä»¶æ‰©å±•æ”¯æŒ
 
-- **UI 框架**：WinUI 3（Windows App SDK）
-- **编程语言**：C# (.NET 8.0)
-- **架构模式**：MVVM（CommunityToolkit.Mvvm）
-- **数据库**：SQLite（本地设置存储）
-- **注入技术**：原生 DLL 注入
-- **后台服务**：Windows 原生 API + HTTP API
-
----
-
-## 🤝 贡献指南
-
-欢迎提交 Issue 和 Pull Request！请遵循以下步骤：
-
-1. Fork 本仓库
-2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 创建 Pull Request
-
-### 报告问题
-- [提交 Bug](https://github.com/whitecode666/FufuLauncher/issues/new?template=bug_report.yml)
-- [请求功能](https://github.com/whitecode666/FufuLauncher/issues/new?template=feature_request.yml)
+### đŸ¨ ä¸ªæ€§åŒ–
+- è‡ªå®ä¹‰èƒŒæ™¯ï¼ˆå›¾ç‰‡/è§†é¢‘/è½®æ’­ï¼‰
+- è‡ªå®ä¹‰ä¸»é¢˜é¢œè‰²
+- æ¯›ç»ç’ƒ/äºå…‹å›æ•ˆæœ
+- å¯è°ƒè‚é€æ˜åº¦
 
 ---
 
-## 📄 许可证
+## đŸ“¥ å®‰è£…ä¸ä½¿ç”¨
 
-本项目采用 [MIT License](../LICENSE) 开源协议。
+### ç³»ç»Ÿè¦æ±‚
+- **æ“ä½œç³»ç»Ÿ**ï¼Windows 10/11ï¼ˆ64ä½ï¼‰
+- **è¿è¡Œåº“**ï¼[.NET 8.0](https://dotnet.microsoft.com/download/dotnet/8.0) æˆ–æ›´é«˜ç‰ˆæœ¬
+- **è¿è¡Œåº“**ï¼[Microsoft Edge WebView2](https://developer.microsoft.com/microsoft-edge/webview2/)ï¼ˆWindows 10 ä»¥ä¸ç‰ˆæœ¬é€å¸¸å·²å†…ç½®ï¼‰
+- **è¿è¡Œåº“**ï¼Visual C++ Redistributable v14
 
-版权所有 © 2026 whitecode666
+### å¿«é€Ÿå¼€å§‹
+
+1. **é¦–æ¬¡è¿è¡Œ**ï¼å°†æ˜¾ç¤ºç”¨æˆ·åè®®ï¼Œè¯·ä»”ç»†é˜…è¯»å¹¶åŒæ„åç»§ç»­
+2. **è®¾ç½®æ¸¸æˆè·¯å¾„**ï¼è¿›å…¥ă€Œè®¾ç½®ă€é¡µé¢é€‰æ‹©æ¸¸æˆå®‰è£…ç›®å½•ï¼ˆå»ºè®®ä½¿ç”¨è‡ªå¨æ£€æµ‹ï¼‰
+3. **ç™»å½•è´¦å·**ï¼åœ¨ă€Œè´¦å·ă€é¡µé¢ç™»å½•ç±³æ¸¸ç¤¾è´¦å·ä»¥ä½¿ç”¨ç­¾åˆ°åŸèƒ½
+4. **å¯å¨æ¸¸æˆ**ï¼ä¸»é¡µç‚¹å‡»ă€Œå¯å¨æ¸¸æˆă€å³å¯
+
+> â ï¸ **é‡è¦æé†’**ï¼
+> - åˆ‡æ¢è´¦å·éœ€è¦**ç®¡ç†å‘˜æƒé™**
+> - å»ºè®®å…ˆé€‰æ‹©æ¸¸æˆè·¯å¾„ï¼Œå†ä»¥ç®¡ç†å‘˜èº«ä»½è¿è¡Œç¨‹åº
+> - æ³¨å…¥åŸèƒ½éœ€è¦**ç®¡ç†å‘˜æƒé™**
+> - å¨æ€è§†é¢‘èƒŒæ™¯å¯èƒ½ä¸ç¨³å®ï¼Œå»ºè®®ä½¿ç”¨é™æ€å›¾ç‰‡
 
 ---
 
-## 🌟 支持项目
+## đŸ—ï¸ æ€æœ¯æ ˆ
 
-如果觉得本项目对你有帮助，欢迎在 GitHub 上给个 ⭐！
-
-[![Star History Chart](https://api.star-history.com/svg?repos=whitecode666/FufuLauncher&type=date&legend=top-left)](https://www.star-history.com/#whitecode666/FufuLauncher&type=date&legend=top-left)
-
----
-
-## 📞 联系方式
-
-- [GitHub Issues](https://github.com/whitecode666/FufuLauncher/issues)
-- [Telegram](https://github.com/whitecode666/FufuLauncher)
+- **UI æ¡†æ¶**ï¼WinUI 3ï¼ˆWindows App SDKï¼‰
+- **ç¼–ç¨‹è¯­è¨€**ï¼C# (.NET 8.0)
+- **æ¶æ„æ¨¡å¼**ï¼MVVMï¼ˆCommunityToolkit.Mvvmï¼‰
+- **æ•°æ®åº“**ï¼SQLiteï¼ˆæœ¬åœ°è®¾ç½®å­˜å‚¨ï¼‰
+- **æ³¨å…¥æ€æœ¯**ï¼åŸç”Ÿ DLL æ³¨å…¥
+- **åå°æœå¡**ï¼Windows åŸç”Ÿ API + HTTP API
 
 ---
 
-*本软件为第三方独立开发工具，与米哈游（miHoYo）及其关联公司无任何关联。*
-*请支持官方正版游戏。*
+## đŸ¤ è´¡çŒ®æŒ‡å—
+
+æ¬¢è¿æäº¤ Issue å’Œ Pull Requestï¼è¯·éµå¾ªä»¥ä¸‹æ­¥éª¤ï¼
+
+1. Fork æœ¬ä»“åº“
+2. åˆ›å»ºåŸèƒ½åˆ†æ”¯ (`git checkout -b feature/AmazingFeature`)
+3. æäº¤æ›´æ”¹ (`git commit -m 'Add some AmazingFeature'`)
+4. æ¨é€åˆ°åˆ†æ”¯ (`git push origin feature/AmazingFeature`)
+5. åˆ›å»º Pull Request
+
+### æ¥å‘é—®é¢˜
+- [æäº¤ Bug](https://github.com/whitecode666/WhitefuLaucher/issues/new?template=bug_report.yml)
+- [è¯·æ±‚åŸèƒ½](https://github.com/whitecode666/WhitefuLaucher/issues/new?template=feature_request.yml)
+
+---
+
+## đŸ“„ è®¸å¯è¯
+
+æœ¬é¡¹ç›®é‡‡ç”¨ [MIT License](../LICENSE) å¼€æºåè®®ă€‚
+
+ç‰ˆæƒæ‰€æœ‰ Â© 2026 whitecode666
+
+---
+
+## đŸŒŸ æ”¯æŒé¡¹ç›®
+
+å¦‚æœè§‰å¾—æœ¬é¡¹ç›®å¯¹ä½ æœ‰å¸®å©ï¼Œæ¬¢è¿åœ¨ GitHub ä¸ç»™ä¸ª â­ï¼
+
+[![Star History Chart](https://api.star-history.com/svg?repos=whitecode666/WhitefuLaucher&type=date&legend=top-left)](https://www.star-history.com/#whitecode666/WhitefuLaucher&type=date&legend=top-left)
+
+---
+
+## đŸ“ è”ç³»æ–¹å¼
+
+- [GitHub Issues](https://github.com/whitecode666/WhitefuLaucher/issues)
+- [Telegram](https://github.com/whitecode666/WhitefuLaucher)
+
+---
+
+*æœ¬è½¯ä»¶ä¸ºç¬¬ä¸‰æ–¹ç‹¬ç«‹å¼€å‘å·¥å…·ï¼Œä¸ç±³å“ˆæ¸¸ï¼ˆmiHoYoï¼‰åå…¶å…³è”å…¬å¸æ— ä»»ä½•å…³è”ă€‚*
+*è¯·æ”¯æŒå®˜æ–¹æ­£ç‰ˆæ¸¸æˆă€‚*

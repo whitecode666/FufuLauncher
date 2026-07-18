@@ -1,4 +1,4 @@
-# [FufuLauncher](https://github.com/whitecode666/FufuLauncher)
+﻿# [WhitefuLaucher](https://github.com/whitecode666/WhitefuLaucher)
 
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-orange)
@@ -7,35 +7,35 @@
 
 > A third-party Genshin Impact launcher built with WinUI 3, featuring game injection, auto check-in, and various utility tools.
 
-[中文](./README.md) | [Tiếng Việt](./README-vi.md)
+[ä¸­æ–‡](./README.md) | [Tiáº¿ng Viá»‡t](./README-vi.md)
 
 ---
 
-## 📸 Screenshots
+## đŸ“¸ Screenshots
 
 > *(Add application screenshots here)*
 
 ---
 
-## ✨ Features
+## âœ¨ Features
 
-### 🔐 Account Management
+### đŸ” Account Management
 - Quick switching between multiple accounts without re-entering passwords
 - Local encrypted storage for account security
 - MiHoYo QR code login support
 
-### 📅 Auto Check-in
+### đŸ“… Auto Check-in
 - One-click daily MiHoYo/HoYoLab check-in
 - Cloud game check-in support
 - Auto community tasks (likes, reads, shares)
 
-### 🎮 Game Management
+### đŸ® Game Management
 - Automatic game path detection
 - Real-time version update announcements
 - Game resource pre-download and integrity verification
 - Server switching (Official/Bilibili/Global)
 
-### ⚡ Utilities
+### â¡ Utilities
 - **Cultivation Calculator**: Calculate resources needed for characters and weapons
 - **Auto Clicker**: Automated keyboard/mouse click operations
 - **FPS Monitor**: Real-time in-game frame rate display
@@ -43,17 +43,17 @@
 - **Wish History**: View and analyze gacha data
 - **Achievement Tracker**: Track achievement progress
 
-### 🚀 Launch Parameters
+### đŸ€ Launch Parameters
 - Custom resolution and window mode settings
 - Custom launch parameter presets
 - Multi-monitor support
 
-### 🔧 Injection
+### đŸ”§ Injection
 - DLL injection support
 - Preset management system
 - Plugin extension support
 
-### 🎨 Customization
+### đŸ¨ Customization
 - Custom backgrounds (image/video/slideshow)
 - Custom theme colors
 - Acrylic/Mica backdrop effects
@@ -61,7 +61,7 @@
 
 ---
 
-## 📥 Installation & Usage
+## đŸ“¥ Installation & Usage
 
 ### System Requirements
 - **OS**: Windows 10/11 (64-bit)
@@ -76,7 +76,7 @@
 3. **Login**: Log in with your MiHoYo/HoYoLab account on the "Account" page to use check-in features.
 4. **Launch Game**: Click "Launch Game" on the main page.
 
-> ⚠️ **Important Notes**:
+> â ï¸ **Important Notes**:
 > - Account switching requires **Administrator privileges**
 > - It's recommended to select the game path first, then run the program as Administrator
 > - Injection features require **Administrator privileges**
@@ -84,7 +84,7 @@
 
 ---
 
-## 🏗️ Tech Stack
+## đŸ—ï¸ Tech Stack
 
 - **UI Framework**: WinUI 3 (Windows App SDK)
 - **Language**: C# (.NET 8.0)
@@ -95,7 +95,7 @@
 
 ---
 
-## 🤝 Contributing
+## đŸ¤ Contributing
 
 Issues and Pull Requests are welcome! Please follow these steps:
 
@@ -106,31 +106,31 @@ Issues and Pull Requests are welcome! Please follow these steps:
 5. Open a Pull Request
 
 ### Report Issues
-- [Report Bug](https://github.com/whitecode666/FufuLauncher/issues/new?template=bug_report.yml)
-- [Feature Request](https://github.com/whitecode666/FufuLauncher/issues/new?template=feature_request.yml)
+- [Report Bug](https://github.com/whitecode666/WhitefuLaucher/issues/new?template=bug_report.yml)
+- [Feature Request](https://github.com/whitecode666/WhitefuLaucher/issues/new?template=feature_request.yml)
 
 ---
 
-## 📄 License
+## đŸ“„ License
 
 This project is licensed under the [MIT License](../LICENSE).
 
-Copyright © 2026 whitecode666
+Copyright Â© 2026 whitecode666
 
 ---
 
-## 🌟 Support
+## đŸŒŸ Support
 
-If you find this project helpful, please consider giving it a ⭐ on GitHub!
+If you find this project helpful, please consider giving it a â­ on GitHub!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=whitecode666/FufuLauncher&type=date&legend=top-left)](https://www.star-history.com/#whitecode666/FufuLauncher&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=whitecode666/WhitefuLaucher&type=date&legend=top-left)](https://www.star-history.com/#whitecode666/WhitefuLaucher&type=date&legend=top-left)
 
 ---
 
-## 📞 Contact
+## đŸ“ Contact
 
-- [GitHub Issues](https://github.com/whitecode666/FufuLauncher/issues)
-- [Telegram](https://github.com/whitecode666/FufuLauncher)
+- [GitHub Issues](https://github.com/whitecode666/WhitefuLaucher/issues)
+- [Telegram](https://github.com/whitecode666/WhitefuLaucher)
 
 ---
 
